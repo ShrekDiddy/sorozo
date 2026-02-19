@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://gyongyosma.hu/wp-content/uploads/2024/09/a4b19bd4-1e67-4d2f-ad87-b19dfdb75112.jpeg);
+    color: #333;
+  }
+   
+
+  header {
+    background-color: #835511; 
+  }
+   
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+   
+  nav ul li {
+    margin: 0;
+  }
+   
+  nav ul li a {
+    display: block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+   
+  nav ul li a.active,
+  nav ul li a:hover {
+    background-color: #b9843a;
+  }
+#Cim{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+.sor{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.oszlop{
+    width: 400px;
+    height: 450px;
+}
+.kepszoveg th,td{
+    background-color: #835511;
+}
+td,th{
+    text-align: center;
+}
+image{
+  height: 100%;
+  object-fit: cover;
+  flex-direction: column;
+}
+
+footer {
+    background-color: #835511;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+  }
