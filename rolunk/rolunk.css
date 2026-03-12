@@ -9,9 +9,7 @@ body {
     background-color: #0f0f14;
     color: #e6d8b5;
     line-height: 1.6;
-    background-image: url(https://i.redd.it/in-case-anyone-else-missed-the-credit-images-v0-df1r1cbuttt61.jpg?width=1920&format=pjpg&auto=webp&s=74cd6a3f91a89338cd3fdc18a6a06b9279fdfe1f);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 header {
@@ -57,7 +55,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 2px;
     background: #000;
     border-top: 2px solid #8b0000;
 }
@@ -96,4 +94,9 @@ footer {
   .member p {
     line-height: 1.5;
     color: white;
+  }
+  main{
+    background-image: url(https://i.redd.it/in-case-anyone-else-missed-the-credit-images-v0-df1r1cbuttt61.jpg?width=1920&format=pjpg&auto=webp&s=74cd6a3f91a89338cd3fdc18a6a06b9279fdfe1f);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
