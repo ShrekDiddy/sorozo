@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #0f0f14;
+    color: #e6d8b5;
+    line-height: 1.6;
+    background-image: url(https://i.redd.it/in-case-anyone-else-missed-the-credit-images-v0-df1r1cbuttt61.jpg?width=1920&format=pjpg&auto=webp&s=74cd6a3f91a89338cd3fdc18a6a06b9279fdfe1f);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8b0000;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    color: #c9a227;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #e6d8b5;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c9a227;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(20,20,30,0.9);
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #8b0000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    border-top: 2px solid #8b0000;
+}
+.team {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+  }
+   
+  .member {
+    background-color: rgba(0,0,0,0.6);
+    flex: 1 1 300px;
+    max-width: 450px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+   
+  .member img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+   
+  .member h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+   
+  .member p {
+    line-height: 1.5;
+    color: white;
+  }
