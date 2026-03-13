@@ -100,3 +100,11 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .kep{
+    background-color: rgba(0,0,0,0.6);
+    flex: 1 1 300px;
+    max-width: 450px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
