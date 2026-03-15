@@ -71,6 +71,10 @@ nav a:hover {
     padding: 20px;
     margin: 20px 0;
     border-left: 4px solid #8b0000;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 footer {
@@ -78,4 +82,23 @@ footer {
     padding: 20px;
     background: #000;
     border-top: 2px solid #8b0000;
+}
+.card img{
+  width: 100px;
+  height: 150px;
+}
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card img {
+    margin: 20px 0 0 0;
+    max-width: 200px;
+  }
+
+  .card p {
+    margin-right: 0;
+  }
 }

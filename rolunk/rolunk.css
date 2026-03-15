@@ -108,3 +108,15 @@ footer {
     margin-bottom: 2rem;
     text-align: center;
   }
+  .csapatkep{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border: #000 solid 6px;
+  }
+  h2{
+    text-align: center;
+    color: #c9a227;
+    
+  }
+  
